@@ -19,8 +19,8 @@ for (let i = 0; i < 20; i++) { // Used for loop to draw 20 clouds in certain loc
     drawCloud(cloudX, cloudY);
 }
 drawGround();
-drawPond();
 drawMtn();
+drawPond();
 drawHouse();
 for(let i =0; i<10; i++) { // used for loop to draw 10 trees in certain location randomly
     drawTree();
