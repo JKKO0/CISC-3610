@@ -13,7 +13,7 @@ Ground color
 Living Quarters with details (windows, door, etc). Could be a boat, tent, house, spaceship, etc.
 Use a for loop to draw grass, rocks, fence, ladder, or some other receptive item in the cartoon. 
 
-  -The cartoon consists of a sun, moon, clouds, background color, mountain, house, pond, trees, ground color, and caption written on canvas. 
-  -Used for loop to create a cloud, and used another for loop to draw 20 clouds in certain locations randomly 
-  -Used for loop to draw 10 trees in certain locations randomly
+- The cartoon consists of a sun, moon, clouds, background color, mountain, house, pond, trees, ground color, and caption written on canvas. 
+- Used for loop to create a cloud, and used another for loop to draw 20 clouds in certain locations randomly 
+- Used for loop to draw 10 trees in certain locations randomly
 
