@@ -1,8 +1,8 @@
 const canvas = document.querySelector('canvas'); //accessing canvas HTML DOM method
 
 //Makes it so canvas fits whole window
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = 1600;
+canvas.height = 1080;
 
 let c = canvas.getContext("2d"); //To draw in the canvas you need to create a 2D context object
 
