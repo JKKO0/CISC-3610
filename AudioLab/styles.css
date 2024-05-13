@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.sound-machine {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sound-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sound-button {
+    margin: 10px;
+    text-align: center;
+}
+
+.sound-button img {
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.sound-button img:hover {
+    transform: scale(1.1);
+}
+
+.sound-button p {
+    margin-top: 5px;
+    font-weight: bold;
+}
