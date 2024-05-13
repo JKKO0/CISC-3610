@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="sound-machine">
+    <h1>Sound Machine</h1>
+
+    <div class="sound-buttons">
+        <div class="sound-button">
+            <img src="GT3RS.JPG" alt="GT3RS" onclick="playAudio('GT3RS_audio')">
+            <p>Porsche GT3RS Sound</p>
+            <audio id="GT3RS_audio">
+                <source src="GT3RS Audio.mp4" type="audio/mp4">
+            </audio>
+            <button onclick="pauseAudio('GT3RS_audio')">Pause</button>
+        </div>
+
+        <div class="sound-button">
+            <img src="LFA.JPG" alt="LFA" onclick="playAudio('LFA_audio')">
+            <p>Lexus LFA Sound</p>
+            <audio id="LFA_audio">
+                <source src="LFA Audio.mp4" type="audio/mp4">
+            </audio>
+            <button onclick="pauseAudio('LFA_audio')">Pause</button>
+        </div>
+
+        <div class="sound-button">
+            <img src="M2.JPG" alt="M2" onclick="playAudio('M2_audio')">
+            <p>BMW M2 Sound</p>
+            <audio id="M2_audio">
+                <source src="M2 Audio.mp4" type="audio/mp4">
+            </audio>
+            <button onclick="pauseAudio('M2_audio')">Pause</button>
+        </div>
+
+        <div class="sound-button">
+            <img src="R34.JPG" alt="R34" onclick="playAudio('R34_audio')">
+            <p>Nissan R34 Skyline Sound</p>
+            <audio id="R34_audio">
+                <source src="R34 Skyline Audio.mp4" type="audio/mp4">
+            </audio>
+            <button onclick="pauseAudio('R34_audio')">Pause</button>
+        </div>
+
+        <div class="sound-button">
+            <img src="SVJ.JPG" alt="SVJ" onclick="playAudio('SVJ_audio')">
+            <p>Lamborghini SVJ Sound</p>
+            <audio id="SVJ_audio">
+                <source src="SVJ Audio.mp4" type="audio/mp4">
+            </audio>
+            <button onclick="pauseAudio('SVJ_audio')">Pause</button>
+        </div>
+
+    </div>
+</div>
+<a href="https://jkko0.github.io/CISC-3610/">Main page!</a>
+<script src="script.js"></script>
+</body>
+</html>
